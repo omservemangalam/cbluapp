@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="js/jquery.mobile-1.4.5.min.css">
+<link rel="stylesheet" href="js/mycampus.css">
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+<div data-role="page" id="home-page" data-url="home-page">
+    <div data-role="header" data-position="fixed">
+        <h1>CBLU</h1>
+        <a href="#left-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">Menu</a>
+        <a href="#right-panel" data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false">SMenu</a>
+        
+        
+        
+    </div><!-- /header -->
+    <div role="main" class="ui-content">
+        <div class="article">
+            <!-- <p><img src="../_assets/img/bike.jpg" alt="Fixed Gear bike"></p> -->
+            <h2>About University App</h2>
+            <p>Use Left menu for more options</p>
+            <!-- <p><small>Source: Wikipedia</small></p> -->
+            <p><a href="#right-panel" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-mini">Share</a></p>
+        </div><!-- /article -->
+    </div><!-- /content -->
+    <div data-role="panel" id="left-panel">
+        <ul data-role="listview">
+           <!-- <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+            <li data-icon="back"><a href="#home-intro" data-rel="back">home intro</a></li> -->
+            <li data-role="list-divider">Menu</li> 
+            <li data-role="collapsible" data-inset="false" data-iconpos="right">
+              <h3>About Us</h3>
+              <ul data-role="listview">
+                <li><a href="#">About University</a></li>
+                <li><a href="#">CBLU Seal</a></li>
+                <li><a href="#">University Act</a></li>
+                <li><a href="#">Vision and Mission</a></li>
+               </ul>
+            </li><!-- /collapsible -->
+            <li data-role="collapsible" data-inset="false" data-iconpos="right">
+              <h3>Academics</h3>
+              <ul data-role="listview">
+                <li><a href="#">Faculty</a></li>
+                <li><a href="#">Syllabi</a></li>
+                <li><a href="#">Agenda</a></li>
+                <li><a href="#">Calender of Activities</a></li>
+                <li><a href="#">List of Holidays</a></li>
+                <li><a href="#">Useful Links</a></li>
+              </ul>
+            </li><!-- /collapsible -->
+            <li data-role="collapsible" data-inset="false" data-iconpos="right">
+              <h3>Administration</h3>
+              <ul data-role="listview">
+                <li><a href="#">Officers & Employees</a></li>
+                <li><a href="#">Right to Information Act</a></li>
+                <li><a href="#">Vacancy Positions</a></li>
+              </ul>
+            </li><!-- /collapsible -->
+        </ul>
+    </div><!-- /panel -->
+    <div data-role="panel" id="right-panel" data-display="overlay" data-position="right">
+        <ul data-role="listview" data-icon="false">
+            <li data-icon="delete"><a href="#" data-rel="close">Close</a></li>
+            <li data-role="list-divider">Share this page</li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Google +</a></li>
+            <li><a href="#">Mail</a></li>
+        </ul>
+    </div><!-- /panel -->
+</div>
+
+</body>
+</html>
